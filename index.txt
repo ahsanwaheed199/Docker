@@ -1,2 +1,2 @@
 kubectl expose deployment.yml --port=8000 --target-port=80 --type=LoadBalancer --name mysvc --selector=env=staging -o yaml > service1.yaml --dry-run 
-heloooooooooooooooooooooooo
+
